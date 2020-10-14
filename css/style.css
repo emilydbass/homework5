@@ -68,7 +68,9 @@ footer{
 #logo{
    /*Your code here.*/
   -webkit-animation-name: logo_wiggle;
+  animation-name: logo_wiggle;
   animation-duration: 15s;
+  animation-iteration-count: 1;
   -webkit-animation-duration: 15s;
 }
 
@@ -160,8 +162,6 @@ header{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  align-content: center;
-  text-align: center;
   /*Your  code here again.*/
 }
 
@@ -211,7 +211,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .nav_links{
@@ -219,7 +219,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
   }
 
   .nav_item a{
